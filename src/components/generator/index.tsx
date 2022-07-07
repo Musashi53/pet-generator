@@ -1,9 +1,7 @@
 import { useState } from "react";
 import { Generator } from "./styles";
-import axios from 'axios';
 import { Image } from "../image/styles";
 import { getImageDog, getImageCat } from "../../services/api";
-import { FaCat, FaDog } from 'react-icons/fa';
 
 type Animal = {
   animal: string;
